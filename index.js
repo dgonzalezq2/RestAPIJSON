@@ -1,4 +1,6 @@
 const express = require("express");
+var cors = require('cors')
+app.use(cors);
 const app = express();
 
 const data = [{
