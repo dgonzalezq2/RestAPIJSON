@@ -22,7 +22,7 @@ const data = [{
     },
     {
         nombre: "Carlos Valdez",
-        foto: "https: //i.pinimg.com/736x/1c/64/76/1c647688ae420040882ba357f9d8fbe6.jpg",
+        foto: "https://i.pinimg.com/originals/ed/e7/72/ede7720ab2c9de25bce039bd88831ebf.jpg",
         correo: "cvaldezvibe@hotmail.com",
         telefono: "09501248975"
     },
