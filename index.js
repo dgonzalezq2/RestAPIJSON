@@ -1,6 +1,5 @@
 const express = require("express");
 var cors = require('cors')
-app.use(cors);
 const app = express();
 
 const data = [{
@@ -123,6 +122,8 @@ const data = [{
         telefono: "09285987405"
     }
 ]
+
+app.use(cors);
 
 app.get("/data", (request, response) => {
     response.json(data);
