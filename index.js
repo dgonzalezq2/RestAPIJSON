@@ -1,6 +1,6 @@
 const express = require("express");
-var cors = require("cors")
-const app = express();
+var cors = require("cors") //Lineas que permiten eliminar problemas de acceso con la data original
+const app = express(); //Aplicación de la eliminación de la restricción inicial
 
 
 const data = [{
