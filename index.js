@@ -1,6 +1,7 @@
 const express = require("express");
-var cors = require('cors')
+var cors = require("cors")
 const app = express();
+
 
 const data = [{
         nombre: "Shakira",
@@ -123,7 +124,7 @@ const data = [{
     }
 ]
 
-app.use(cors);
+app.use(cors());
 
 app.get("/data", (request, response) => {
     response.json(data);
